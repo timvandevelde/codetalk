@@ -1,0 +1,7 @@
+title: About this website
+intro: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor sem, ultrices in felis ac, volutpat consectetur dui. Ut in commodo leo. Sed id tortor sed ipsum vulputate imperdiet bibendum quis nibh. Nunc turpis nisi, mattis a justo eu, gravida congue nisi. Duis scelerisque augue non euismod placerat.
+team:
+  - name: Simon
+    position: 1337 programmer
+    photo: /source/images/simon.jpg
