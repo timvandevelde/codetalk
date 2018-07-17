@@ -3,8 +3,8 @@ backend:
   repo: timvandevelde/codetalk # Path to your GitHub repository
   branch: main # Branch to update (master by default)
 
-# public_folder: "/images" # Actual public folder after build
-# media_folder: "source/images" # Folder where user uploaded files should go
+public_folder: "/images" # Actual public folder after build
+media_folder: "source/images" # Folder where user uploaded files should go
 
 # collections:
 #   - label: "Pages"
