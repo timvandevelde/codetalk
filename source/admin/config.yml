@@ -16,8 +16,8 @@ collections:
         fields:
           - {label: Title, name: title, widget: string }
           - {label: Intro, name: intro, widget: markdown }
-          - label: Team
-            name: team
+          - label: Team members
+            name: teammember
             widget: list
             fields:
               - {label: Name, name: name, widget: string}

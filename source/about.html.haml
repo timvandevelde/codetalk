@@ -3,9 +3,9 @@
 %p.introduction
   = data.about.intro
 %ul
-  - data.about.team.each do | team |
+  - data.about.teammember.each do | person |
     %li
-      %h4= team.name
-      %p= team.position
-      %img{ src: team.photo }
+      %h4= person.name
+      %p= person.position
+      %img{ src: person.photo }
 
