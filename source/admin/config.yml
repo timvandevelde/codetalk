@@ -6,20 +6,20 @@ backend:
 public_folder: "/images" # Actual public folder after build
 media_folder: "source/images" # Folder where user uploaded files should go
 
-# collections:
-#   - label: "Pages"
-#     name: "pages"
-#     files:
-#       - label: "About Page"
-#         name: "about"
-#         file: "data/about.yml"
-#         fields:
-#           - {label: Title, name: title, widget: string }
-#           - {label: Intro, name: intro, widget: markdown }
-#           - label: Team members
-#             name: teammember
-#             widget: list
-#             fields:
-#               - {label: Name, name: name, widget: string}
-#               - {label: Position, name: position, widget: string}
-#               - {label: Photo, name: photo, widget: image}
+collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "data/about.yml"
+        fields:
+          - {label: Title, name: title, widget: string }
+          - {label: Intro, name: intro, widget: markdown }
+          - label: Team members
+            name: teammember
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Position, name: position, widget: string}
+              - {label: Photo, name: photo, widget: image}

@@ -1,12 +1,11 @@
 %h1
-  Test
-/   = data.about.title
-/ %p.introduction
-/   = data.about.intro
-/ %ul
-/   - data.about.teammember.each do | person |
-/     %li
-/       %h4= person.name
-/       %p= person.position
-/       %img{ src: person.photo }
+  = data.about.title
+%p.introduction
+  = data.about.intro
+%ul
+  - data.about.teammember.each do | person |
+    %li
+      %h4= person.name
+      %p= person.position
+      %img{ src: person.photo }
 
